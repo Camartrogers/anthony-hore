@@ -1,0 +1,25 @@
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply font-serif;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  @apply font-serif;
+}
+
+.wp-block {
+  @apply max-w-screen-xl;
+}
+
+.wp-block[data-align="wide"] {
+  @apply max-w-screen-xl;
+}
+
+.wp-block[data-align="full"] {
+  @apply max-w-full;
+}
