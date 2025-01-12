@@ -1,0 +1,18 @@
+# Ignore everything
+*
+!readme.md
+!.gitignore
+# Allow Git to track folders
+!*/
+
+# Allow the specific theme folder
+!wp-content/themes/anthonyhore/**
+
+# Ignore node modules
+wp-content/themes/anthonyhore/node_modules/*
+
+# Ignore WordPress core files and uploads
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/plugins/
