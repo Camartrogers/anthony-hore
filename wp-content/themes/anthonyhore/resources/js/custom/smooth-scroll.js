@@ -25,7 +25,7 @@ document.querySelector("#work-button").addEventListener("click", () => {
       scrollTo: { y: "#work", offsetY: 70 },
     });
   } else {
-    window.location.href = "/anthonyhore?work=true";
+    window.location.href = "/?work=true";
   }
 });
 
